@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Your World</h1>
+        
+        <div id="player-info">
+            <p>Age: <span id="age">1</span></p>
+            <p>Food Available: <span id="food">10</span></p>
+            <p>Pet Level: <span id="pet-level">1</span></p>
+            <p>Farm Level: <span id="farm-level">1</span></p>
+        </div>
+        
+        <div id="controls">
+            <button onclick="feedPlayer()">Feed Player</button>
+            <button onclick="tapToLevelUp()">Tap to Level Up</button>
+        </div>
+        
+        <div id="premium-options">
+            <button onclick="purchasePremium()">Purchase Premium ($1.99)</button>
+            <button onclick="usePremiumFood()">Use Premium Food</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
